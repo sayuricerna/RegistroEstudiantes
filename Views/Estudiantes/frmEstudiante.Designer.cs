@@ -46,7 +46,7 @@
             this.btnCancelar.BackColor = System.Drawing.Color.Navy;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnCancelar.Location = new System.Drawing.Point(286, 332);
+            this.btnCancelar.Location = new System.Drawing.Point(286, 375);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(245, 90);
             this.btnCancelar.TabIndex = 18;
@@ -59,7 +59,7 @@
             this.btnGuardar.BackColor = System.Drawing.Color.Navy;
             this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnGuardar.Location = new System.Drawing.Point(35, 332);
+            this.btnGuardar.Location = new System.Drawing.Point(35, 375);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(245, 90);
             this.btnGuardar.TabIndex = 17;
@@ -71,8 +71,10 @@
             // 
             this.txtDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDireccion.Location = new System.Drawing.Point(148, 223);
+            this.txtDireccion.MaxLength = 100;
+            this.txtDireccion.Multiline = true;
             this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(383, 34);
+            this.txtDireccion.Size = new System.Drawing.Size(383, 86);
             this.txtDireccion.TabIndex = 16;
             // 
             // txtApellido
@@ -134,16 +136,17 @@
             // txtEdad
             // 
             this.txtEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEdad.Location = new System.Drawing.Point(148, 272);
+            this.txtEdad.Location = new System.Drawing.Point(148, 315);
             this.txtEdad.Name = "txtEdad";
             this.txtEdad.Size = new System.Drawing.Size(383, 34);
             this.txtEdad.TabIndex = 20;
+            this.txtEdad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtEdad_KeyPress);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(72, 275);
+            this.label5.Location = new System.Drawing.Point(72, 318);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(70, 29);
             this.label5.TabIndex = 19;
@@ -153,7 +156,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(567, 450);
+            this.ClientSize = new System.Drawing.Size(567, 489);
             this.Controls.Add(this.txtEdad);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnCancelar);

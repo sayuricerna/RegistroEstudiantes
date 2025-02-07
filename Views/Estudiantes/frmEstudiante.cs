@@ -116,5 +116,13 @@ namespace RegistroEstudiantes.Views.Estudiantes
             }
 
         }
+
+        private void txtEdad_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
     }
 }
