@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using RegistroEstudiantes.Views.Reportes;
 
 namespace RegistroEstudiantes.Views
 {
@@ -55,6 +56,13 @@ namespace RegistroEstudiantes.Views
             pnlGeneral.Controls.Clear();
             frmNueva.Dock = DockStyle.Fill;
             pnlGeneral.Controls.Add(frmNueva);
+        }
+
+        private void btnReportes_Click(object sender, EventArgs e)
+        {
+            Reportes.frmReporte frm = new Reportes.frmReporte();
+            frm.Text = "Reportes";
+            frm.ShowDialog();
         }
     }
 }

@@ -67,3 +67,4 @@ C:\Users\sahil\Desktop\RegistroEstudiantes\obj\Debug\RegistroEstudiantes.Views.E
 C:\Users\sahil\Desktop\RegistroEstudiantes\obj\Debug\RegistroEstudiantes.Views.Inscripciones.frmInscripcion.resources
 C:\Users\sahil\Desktop\RegistroEstudiantes\obj\Debug\RegistroEstudiantes.Views.UCCurso.resources
 C:\Users\sahil\Desktop\RegistroEstudiantes\obj\Debug\RegistroEstudiantes.Views.UCEstudiante.resources
+C:\Users\sahil\Desktop\RegistroEstudiantes\obj\Debug\RegistroEstudiantes.Views.Reportes.frmReporte.resources

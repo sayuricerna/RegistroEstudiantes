@@ -73,6 +73,16 @@
     <Compile Include="Models\inscripcion_model.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistroEstudiantesDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RegistroEstudiantesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroEstudiantesDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RegistroEstudiantesDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="Views\Cursos\frmCurso.cs">
       <SubType>Form</SubType>
@@ -97,6 +107,12 @@
     </Compile>
     <Compile Include="Views\MenuPrincipal.Designer.cs">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Reportes\frmReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Reportes\frmReporte.Designer.cs">
+      <DependentUpon>frmReporte.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\UCCurso.cs">
       <SubType>UserControl</SubType>
@@ -138,6 +154,10 @@
     <EmbeddedResource Include="Views\MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Reportes\frmReporte.resx">
+      <DependentUpon>frmReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Reportes\Report1.rdlc" />
     <EmbeddedResource Include="Views\UCCurso.resx">
       <DependentUpon>UCCurso.cs</DependentUpon>
     </EmbeddedResource>
@@ -162,11 +182,34 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="RegistroEstudiantesDataSet.xsc">
+      <DependentUpon>RegistroEstudiantesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RegistroEstudiantesDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RegistroEstudiantesDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RegistroEstudiantesDataSet.xss">
+      <DependentUpon>RegistroEstudiantesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RegistroEstudiantesDataSet1.xsc">
+      <DependentUpon>RegistroEstudiantesDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RegistroEstudiantesDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RegistroEstudiantesDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RegistroEstudiantesDataSet1.xss">
+      <DependentUpon>RegistroEstudiantesDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Resources\online-course %282%29.png" />
     <None Include="Resources\graduated.png" />
     <None Include="Resources\course.png" />
     <None Include="Resources\contract.png" />
     <None Include="Resources\refresh.png" />
+    <None Include="Resources\report %284%29.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

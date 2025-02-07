@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RegistroEstudiantesDataSet" targetNamespace="http://tempuri.org/RegistroEstudiantesDataSet.xsd" xmlns:mstns="http://tempuri.org/RegistroEstudiantesDataSet.xsd" xmlns="http://tempuri.org/RegistroEstudiantesDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="RegistroEstudiantesConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="RegistroEstudiantesConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.RegistroEstudiantes.Properties.Settings.GlobalReference.Default.RegistroEstudiantesConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vistaEstudiantesPorCursoTableAdapter" GeneratorDataComponentClassName="vistaEstudiantesPorCursoTableAdapter" Name="vistaEstudiantesPorCurso" UserDataComponentName="vistaEstudiantesPorCursoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="RegistroEstudiantesConnectionString (Settings)" DbObjectName="RegistroEstudiantes.dbo.vistaEstudiantesPorCurso" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT IdCurso, NombreCurso, Creditos, Profesor, IdEstudiante, NombreEstudiante, ApellidoEstudiante, FechaInscripcion FROM dbo.vistaEstudiantesPorCurso</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdCurso" DataSetColumn="IdCurso" />
+              <Mapping SourceColumn="NombreCurso" DataSetColumn="NombreCurso" />
+              <Mapping SourceColumn="Creditos" DataSetColumn="Creditos" />
+              <Mapping SourceColumn="Profesor" DataSetColumn="Profesor" />
+              <Mapping SourceColumn="IdEstudiante" DataSetColumn="IdEstudiante" />
+              <Mapping SourceColumn="NombreEstudiante" DataSetColumn="NombreEstudiante" />
+              <Mapping SourceColumn="ApellidoEstudiante" DataSetColumn="ApellidoEstudiante" />
+              <Mapping SourceColumn="FechaInscripcion" DataSetColumn="FechaInscripcion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RegistroEstudiantesDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="RegistroEstudiantesDataSet" msprop:Generator_DataSetName="RegistroEstudiantesDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vistaEstudiantesPorCurso" msprop:Generator_RowEvHandlerName="vistaEstudiantesPorCursoRowChangeEventHandler" msprop:Generator_RowDeletedName="vistaEstudiantesPorCursoRowDeleted" msprop:Generator_RowDeletingName="vistaEstudiantesPorCursoRowDeleting" msprop:Generator_RowEvArgName="vistaEstudiantesPorCursoRowChangeEvent" msprop:Generator_TablePropName="vistaEstudiantesPorCurso" msprop:Generator_RowChangedName="vistaEstudiantesPorCursoRowChanged" msprop:Generator_RowChangingName="vistaEstudiantesPorCursoRowChanging" msprop:Generator_TableClassName="vistaEstudiantesPorCursoDataTable" msprop:Generator_RowClassName="vistaEstudiantesPorCursoRow" msprop:Generator_TableVarName="tablevistaEstudiantesPorCurso" msprop:Generator_UserTableName="vistaEstudiantesPorCurso">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCurso" msprop:Generator_ColumnPropNameInRow="IdCurso" msprop:Generator_ColumnPropNameInTable="IdCursoColumn" msprop:Generator_ColumnVarNameInTable="columnIdCurso" msprop:Generator_UserColumnName="IdCurso" type="xs:int" />
+              <xs:element name="NombreCurso" msprop:Generator_ColumnPropNameInRow="NombreCurso" msprop:Generator_ColumnPropNameInTable="NombreCursoColumn" msprop:Generator_ColumnVarNameInTable="columnNombreCurso" msprop:Generator_UserColumnName="NombreCurso">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Creditos" msprop:Generator_ColumnPropNameInRow="Creditos" msprop:Generator_ColumnPropNameInTable="CreditosColumn" msprop:Generator_ColumnVarNameInTable="columnCreditos" msprop:Generator_UserColumnName="Creditos" type="xs:int" />
+              <xs:element name="Profesor" msprop:Generator_ColumnPropNameInRow="Profesor" msprop:Generator_ColumnPropNameInTable="ProfesorColumn" msprop:Generator_ColumnVarNameInTable="columnProfesor" msprop:Generator_UserColumnName="Profesor">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdEstudiante" msprop:Generator_ColumnPropNameInRow="IdEstudiante" msprop:Generator_ColumnPropNameInTable="IdEstudianteColumn" msprop:Generator_ColumnVarNameInTable="columnIdEstudiante" msprop:Generator_UserColumnName="IdEstudiante" type="xs:int" />
+              <xs:element name="NombreEstudiante" msprop:Generator_ColumnPropNameInRow="NombreEstudiante" msprop:Generator_ColumnPropNameInTable="NombreEstudianteColumn" msprop:Generator_ColumnVarNameInTable="columnNombreEstudiante" msprop:Generator_UserColumnName="NombreEstudiante">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ApellidoEstudiante" msprop:Generator_ColumnPropNameInRow="ApellidoEstudiante" msprop:Generator_ColumnPropNameInTable="ApellidoEstudianteColumn" msprop:Generator_ColumnVarNameInTable="columnApellidoEstudiante" msprop:Generator_UserColumnName="ApellidoEstudiante">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaInscripcion" msprop:Generator_ColumnPropNameInRow="FechaInscripcion" msprop:Generator_ColumnPropNameInTable="FechaInscripcionColumn" msprop:Generator_ColumnVarNameInTable="columnFechaInscripcion" msprop:Generator_UserColumnName="FechaInscripcion" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

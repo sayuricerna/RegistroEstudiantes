@@ -31,6 +31,7 @@
             this.pnlGeneral = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnReportes = new System.Windows.Forms.Button();
             this.btnInscripciones = new System.Windows.Forms.Button();
             this.btnCursos = new System.Windows.Forms.Button();
             this.btnEstudiantes = new System.Windows.Forms.Button();
@@ -62,6 +63,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel2.Controls.Add(this.btnReportes);
             this.panel2.Controls.Add(this.btnInscripciones);
             this.panel2.Controls.Add(this.btnCursos);
             this.panel2.Controls.Add(this.btnEstudiantes);
@@ -71,6 +73,22 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(419, 899);
             this.panel2.TabIndex = 1;
+            // 
+            // btnReportes
+            // 
+            this.btnReportes.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReportes.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReportes.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnReportes.Image = global::RegistroEstudiantes.Properties.Resources.report__4_;
+            this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReportes.Location = new System.Drawing.Point(27, 663);
+            this.btnReportes.Name = "btnReportes";
+            this.btnReportes.Size = new System.Drawing.Size(365, 92);
+            this.btnReportes.TabIndex = 4;
+            this.btnReportes.Text = "Reportes";
+            this.btnReportes.UseVisualStyleBackColor = false;
+            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
             // 
             // btnInscripciones
             // 
@@ -157,5 +175,6 @@
         private System.Windows.Forms.Button btnCursos;
         private System.Windows.Forms.Button btnEstudiantes;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnReportes;
     }
 }
