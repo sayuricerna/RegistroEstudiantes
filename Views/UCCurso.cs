@@ -92,7 +92,7 @@ namespace RegistroEstudiantes.Views
             dataGridView1.Columns["IdCurso"].Visible = false;
             dataGridView1.Columns["NombreCurso"].HeaderText = "Nombre del Curso";
             dataGridView1.Columns["Creditos"].HeaderText = "Créditos Totales";
-            dataGridView1.Columns["Profesor"].HeaderText = "Profesor";
+            dataGridView1.Columns["Profesor"].HeaderText = "Profesor Encargado";
 
             dataGridView1.Columns.Add(btnEditar);
             dataGridView1.Columns.Add(btnEliminar);

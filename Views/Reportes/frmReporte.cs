@@ -48,17 +48,9 @@ namespace RegistroEstudiantes.Views.Reportes
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            /*
-            this.vistaEstudiantesPorCursoTableAdapter.FillByIdCurso(this.registroEstudiantesDataSet1.vistaEstudiantesPorCurso, cmbCursos.SelectedValue);
-
-            this.reportViewer1.RefreshReport();
-            cargaCursos();
-            */
             int idCurso = Convert.ToInt32(cmbCursos.SelectedValue);
             this.vistaEstudiantesPorCursoTableAdapter.FillByIdCurso(this.registroEstudiantesDataSet1.vistaEstudiantesPorCurso, idCurso);
             this.reportViewer1.RefreshReport();
-
-            cargaCursos();
 
         }
     }

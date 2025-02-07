@@ -93,8 +93,8 @@ namespace RegistroEstudiantes.Views
             dataGridView1.Columns["IdCurso"].Visible = false;
             dataGridView1.Columns["IdInscripcion"].Visible = false;
             dataGridView1.Columns["fecha"].HeaderText = "Fecha de Inscripción";
-            dataGridView1.Columns["NombreEstudiante"].HeaderText = "Estudiantes";
-            dataGridView1.Columns["ApellidoEstudiante"].HeaderText = "Apellidos";
+            dataGridView1.Columns["NombreEstudiante"].HeaderText = "Nombre Estudiante";
+            dataGridView1.Columns["ApellidoEstudiante"].HeaderText = "Apellido Estudiante";
             dataGridView1.Columns["NombreCurso"].HeaderText = "Nombre del Curso";
 
             dataGridView1.Columns.Add(btnEditar);

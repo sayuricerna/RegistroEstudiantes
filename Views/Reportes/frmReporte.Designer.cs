@@ -29,76 +29,95 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            this.vistaEstudiantesPorCursoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.registroEstudiantesDataSet1 = new RegistroEstudiantes.RegistroEstudiantesDataSet1();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.cmbCursos = new System.Windows.Forms.ComboBox();
             this.btnBuscar = new System.Windows.Forms.Button();
-            this.registroEstudiantesDataSet1 = new RegistroEstudiantes.RegistroEstudiantesDataSet1();
-            this.vistaEstudiantesPorCursoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.vistaEstudiantesPorCursoTableAdapter = new RegistroEstudiantes.RegistroEstudiantesDataSet1TableAdapters.vistaEstudiantesPorCursoTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.registroEstudiantesDataSet1)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.vistaEstudiantesPorCursoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.registroEstudiantesDataSet1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // reportViewer1
-            // 
-            reportDataSource2.Name = "DataSet1";
-            reportDataSource2.Value = this.vistaEstudiantesPorCursoBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource2);
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "RegistroEstudiantes.Views.Reportes.Report1.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(1, 92);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(1306, 453);
-            this.reportViewer1.TabIndex = 0;
-            this.reportViewer1.Load += new System.EventHandler(this.reportViewer1_Load);
-            // 
-            // cmbCursos
-            // 
-            this.cmbCursos.FormattingEnabled = true;
-            this.cmbCursos.Location = new System.Drawing.Point(12, 12);
-            this.cmbCursos.Name = "cmbCursos";
-            this.cmbCursos.Size = new System.Drawing.Size(916, 24);
-            this.cmbCursos.TabIndex = 1;
-            // 
-            // btnBuscar
-            // 
-            this.btnBuscar.Location = new System.Drawing.Point(1025, 13);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(236, 23);
-            this.btnBuscar.TabIndex = 2;
-            this.btnBuscar.Text = "button1";
-            this.btnBuscar.UseVisualStyleBackColor = true;
-            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
-            // 
-            // registroEstudiantesDataSet1
-            // 
-            this.registroEstudiantesDataSet1.DataSetName = "RegistroEstudiantesDataSet1";
-            this.registroEstudiantesDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // vistaEstudiantesPorCursoBindingSource
             // 
             this.vistaEstudiantesPorCursoBindingSource.DataMember = "vistaEstudiantesPorCurso";
             this.vistaEstudiantesPorCursoBindingSource.DataSource = this.registroEstudiantesDataSet1;
             // 
+            // registroEstudiantesDataSet1
+            // 
+            this.registroEstudiantesDataSet1.DataSetName = "RegistroEstudiantesDataSet1";
+            this.registroEstudiantesDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // reportViewer1
+            // 
+            reportDataSource1.Name = "DataSet1";
+            reportDataSource1.Value = this.vistaEstudiantesPorCursoBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "RegistroEstudiantes.Views.Reportes.Report1.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(1, 92);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.ServerReport.BearerToken = null;
+            this.reportViewer1.Size = new System.Drawing.Size(1330, 615);
+            this.reportViewer1.TabIndex = 0;
+            this.reportViewer1.Load += new System.EventHandler(this.reportViewer1_Load);
+            // 
+            // cmbCursos
+            // 
+            this.cmbCursos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmbCursos.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbCursos.FormattingEnabled = true;
+            this.cmbCursos.Location = new System.Drawing.Point(12, 36);
+            this.cmbCursos.Name = "cmbCursos";
+            this.cmbCursos.Size = new System.Drawing.Size(1036, 37);
+            this.cmbCursos.TabIndex = 1;
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.BackColor = System.Drawing.Color.Navy;
+            this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnBuscar.Location = new System.Drawing.Point(1054, 29);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(253, 51);
+            this.btnBuscar.TabIndex = 2;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
             // vistaEstudiantesPorCursoTableAdapter
             // 
             this.vistaEstudiantesPorCursoTableAdapter.ClearBeforeFill = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(7, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(382, 25);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Reporte de Estudiantes Inscritos por Curso";
             // 
             // frmReporte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1319, 709);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1328, 709);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.cmbCursos);
             this.Controls.Add(this.reportViewer1);
             this.Name = "frmReporte";
             this.Text = "frmReporte";
             this.Load += new System.EventHandler(this.frmReporte_Load_1);
-            ((System.ComponentModel.ISupportInitialize)(this.registroEstudiantesDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vistaEstudiantesPorCursoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.registroEstudiantesDataSet1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -110,5 +129,6 @@
         private RegistroEstudiantesDataSet1 registroEstudiantesDataSet1;
         private System.Windows.Forms.BindingSource vistaEstudiantesPorCursoBindingSource;
         private RegistroEstudiantesDataSet1TableAdapters.vistaEstudiantesPorCursoTableAdapter vistaEstudiantesPorCursoTableAdapter;
+        private System.Windows.Forms.Label label1;
     }
 }

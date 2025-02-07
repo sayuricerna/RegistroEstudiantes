@@ -6,16 +6,16 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1.05625in</Width>
+              <Width>0.9375in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.95625in</Width>
+              <Width>2.5375in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.95625in</Width>
+              <Width>2.5375in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.95625in</Width>
+              <Width>2.5375in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -31,8 +31,10 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Id del Estudiante</Value>
-                              <Style />
+                              <Value>Id</Value>
+                              <Style>
+                                <FontSize>12pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -290,10 +292,10 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>0.33833in</Top>
+        <Top>0.14666in</Top>
         <Left>0.49667in</Left>
         <Height>0.5in</Height>
-        <Width>6.925in</Width>
+        <Width>8.55in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -301,13 +303,13 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>2.105in</Height>
+    <Height>5.72167in</Height>
     <Style />
   </Body>
-  <Width>8.32167in</Width>
+  <Width>9.64667in</Width>
   <Page>
     <PageHeader>
-      <Height>1.04667in</Height>
+      <Height>1.22167in</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
@@ -318,12 +320,25 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>Id del Curso: </Value>
-                  <Style />
+                  <Value>Id del Curso:    </Value>
+                  <Style>
+                    <FontFamily>Arial Black</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
                 </TextRun>
                 <TextRun>
                   <Value>=Fields!IdCurso.Value</Value>
-                  <Style />
+                  <Style>
+                    <FontFamily>Arial Black</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value xml:space="preserve">      </Value>
+                  <Style>
+                    <FontFamily>Arial Black</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
                 </TextRun>
               </TextRuns>
               <Style />
@@ -331,12 +346,18 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>Nombre del Curso: </Value>
-                  <Style />
+                  <Value>Nombre del Curso:   </Value>
+                  <Style>
+                    <FontFamily>Arial Black</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
                 </TextRun>
                 <TextRun>
                   <Value>=Fields!NombreCurso.Value</Value>
-                  <Style />
+                  <Style>
+                    <FontFamily>Arial Black</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
                 </TextRun>
               </TextRuns>
               <Style />
@@ -344,12 +365,25 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>Créditos: </Value>
-                  <Style />
+                  <Value>Créditos del Curso:     </Value>
+                  <Style>
+                    <FontFamily>Arial Black</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
                 </TextRun>
                 <TextRun>
                   <Value>=Fields!Creditos.Value</Value>
-                  <Style />
+                  <Style>
+                    <FontFamily>Arial Black</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value xml:space="preserve">        </Value>
+                  <Style>
+                    <FontFamily>Arial Black</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
                 </TextRun>
               </TextRuns>
               <Style />
@@ -357,22 +391,35 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>Profesor: </Value>
-                  <Style />
+                  <Value>Profesor Encargado:    </Value>
+                  <Style>
+                    <FontFamily>Arial Black</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
                 </TextRun>
                 <TextRun>
                   <Value>=Fields!Profesor.Value</Value>
-                  <Style />
+                  <Style>
+                    <FontFamily>Arial Black</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value xml:space="preserve">          </Value>
+                  <Style>
+                    <FontFamily>Arial Black</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
                 </TextRun>
               </TextRuns>
               <Style />
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox10</rd:DefaultName>
-          <Top>0.34667in</Top>
-          <Left>0.62167in</Left>
-          <Height>0.7in</Height>
-          <Width>6.39167in</Width>
+          <Top>0.14389in</Top>
+          <Left>0.19667in</Left>
+          <Height>1in</Height>
+          <Width>9.11667in</Width>
           <Style>
             <Border>
               <Style>None</Style>
@@ -391,7 +438,7 @@
       </Style>
     </PageHeader>
     <PageFooter>
-      <Height>1in</Height>
+      <Height>0.91667in</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <Style>

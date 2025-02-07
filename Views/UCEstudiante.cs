@@ -114,8 +114,8 @@ namespace RegistroEstudiantes.Views
                 dataGridView1.DataSource = logicaEstudiante.Buscar(txtBuscar.Text.Trim());
             }
 
-            dataGridView1.Columns["NombreEstudiante"].HeaderText = "NombreEstudiante";
-            dataGridView1.Columns["ApellidoEstudiante"].HeaderText = "ApellidoEstudiante";
+            dataGridView1.Columns["NombreEstudiante"].HeaderText = "Nombres";
+            dataGridView1.Columns["ApellidoEstudiante"].HeaderText = "Apellidos";
             dataGridView1.Columns["Edad"].HeaderText = "Edad";
             dataGridView1.Columns["Direccion"].HeaderText = "Direccion";
             dataGridView1.Columns["IdEstudiante"].Visible = false;
