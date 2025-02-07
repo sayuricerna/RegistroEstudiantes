@@ -61,3 +61,9 @@ C:\Users\sahil\Desktop\RegistroEstudiantes\obj\Debug\RegistroEstudiantes.csproj.
 C:\Users\sahil\Desktop\RegistroEstudiantes\obj\Debug\Registro.1E7052CE.Up2Date
 C:\Users\sahil\Desktop\RegistroEstudiantes\obj\Debug\RegistroEstudiantes.exe
 C:\Users\sahil\Desktop\RegistroEstudiantes\obj\Debug\RegistroEstudiantes.pdb
+C:\Users\sahil\Desktop\RegistroEstudiantes\obj\Debug\RegistroEstudiantes.Views.UCInscripcion.resources
+C:\Users\sahil\Desktop\RegistroEstudiantes\obj\Debug\RegistroEstudiantes.Views.Cursos.frmCurso.resources
+C:\Users\sahil\Desktop\RegistroEstudiantes\obj\Debug\RegistroEstudiantes.Views.Estudiantes.frmEstudiante.resources
+C:\Users\sahil\Desktop\RegistroEstudiantes\obj\Debug\RegistroEstudiantes.Views.Inscripciones.frmInscripcion.resources
+C:\Users\sahil\Desktop\RegistroEstudiantes\obj\Debug\RegistroEstudiantes.Views.UCCurso.resources
+C:\Users\sahil\Desktop\RegistroEstudiantes\obj\Debug\RegistroEstudiantes.Views.UCEstudiante.resources

@@ -32,5 +32,29 @@ namespace RegistroEstudiantes.Views
         {
 
         }
+
+        private void btnEstudiantes_Click(object sender, EventArgs e)
+        {
+            UCEstudiante frmNueva = new UCEstudiante();
+            pnlGeneral.Controls.Clear();
+            frmNueva.Dock = DockStyle.Fill;
+            pnlGeneral.Controls.Add(frmNueva);
+        }
+
+        private void btnCursos_Click(object sender, EventArgs e)
+        {
+            UCCurso frmNueva = new UCCurso();
+            pnlGeneral.Controls.Clear();
+            frmNueva.Dock = DockStyle.Fill;
+            pnlGeneral.Controls.Add(frmNueva);
+        }
+
+        private void btnInscripciones_Click(object sender, EventArgs e)
+        {
+            UCInscripcion frmNueva = new UCInscripcion();
+            pnlGeneral.Controls.Clear();
+            frmNueva.Dock = DockStyle.Fill;
+            pnlGeneral.Controls.Add(frmNueva);
+        }
     }
 }

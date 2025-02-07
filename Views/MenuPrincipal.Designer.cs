@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.pnlGeneral = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnEstudiantes = new System.Windows.Forms.Button();
-            this.btnCursos = new System.Windows.Forms.Button();
-            this.btnInscripciones = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnInscripciones = new System.Windows.Forms.Button();
+            this.btnCursos = new System.Windows.Forms.Button();
+            this.btnEstudiantes = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlGeneral.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -49,6 +49,15 @@
             this.pnlGeneral.Size = new System.Drawing.Size(850, 671);
             this.pnlGeneral.TabIndex = 0;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(190, 216);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(89, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "BINEVENIDO";
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.LightSteelBlue;
@@ -62,27 +71,18 @@
             this.panel2.Size = new System.Drawing.Size(385, 671);
             this.panel2.TabIndex = 1;
             // 
-            // pictureBox1
+            // btnInscripciones
             // 
-            this.pictureBox1.Image = global::RegistroEstudiantes.Properties.Resources.online_course__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(77, 55);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(250, 256);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btnEstudiantes
-            // 
-            this.btnEstudiantes.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnEstudiantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEstudiantes.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnEstudiantes.Location = new System.Drawing.Point(29, 339);
-            this.btnEstudiantes.Name = "btnEstudiantes";
-            this.btnEstudiantes.Size = new System.Drawing.Size(333, 92);
-            this.btnEstudiantes.TabIndex = 1;
-            this.btnEstudiantes.Text = "Estudiantes";
-            this.btnEstudiantes.UseVisualStyleBackColor = false;
+            this.btnInscripciones.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnInscripciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInscripciones.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnInscripciones.Location = new System.Drawing.Point(29, 535);
+            this.btnInscripciones.Name = "btnInscripciones";
+            this.btnInscripciones.Size = new System.Drawing.Size(333, 92);
+            this.btnInscripciones.TabIndex = 3;
+            this.btnInscripciones.Text = "Inscripciones";
+            this.btnInscripciones.UseVisualStyleBackColor = false;
+            this.btnInscripciones.Click += new System.EventHandler(this.btnInscripciones_Click);
             // 
             // btnCursos
             // 
@@ -95,27 +95,30 @@
             this.btnCursos.TabIndex = 2;
             this.btnCursos.Text = "Cursos";
             this.btnCursos.UseVisualStyleBackColor = false;
+            this.btnCursos.Click += new System.EventHandler(this.btnCursos_Click);
             // 
-            // btnInscripciones
+            // btnEstudiantes
             // 
-            this.btnInscripciones.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnInscripciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInscripciones.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnInscripciones.Location = new System.Drawing.Point(29, 535);
-            this.btnInscripciones.Name = "btnInscripciones";
-            this.btnInscripciones.Size = new System.Drawing.Size(333, 92);
-            this.btnInscripciones.TabIndex = 3;
-            this.btnInscripciones.Text = "Inscripciones";
-            this.btnInscripciones.UseVisualStyleBackColor = false;
+            this.btnEstudiantes.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnEstudiantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEstudiantes.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnEstudiantes.Location = new System.Drawing.Point(29, 339);
+            this.btnEstudiantes.Name = "btnEstudiantes";
+            this.btnEstudiantes.Size = new System.Drawing.Size(333, 92);
+            this.btnEstudiantes.TabIndex = 1;
+            this.btnEstudiantes.Text = "Estudiantes";
+            this.btnEstudiantes.UseVisualStyleBackColor = false;
+            this.btnEstudiantes.Click += new System.EventHandler(this.btnEstudiantes_Click);
             // 
-            // label1
+            // pictureBox1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(190, 216);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "BINEVENIDO";
+            this.pictureBox1.Image = global::RegistroEstudiantes.Properties.Resources.online_course__2_;
+            this.pictureBox1.Location = new System.Drawing.Point(77, 55);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(250, 256);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // MenuPrincipal
             // 

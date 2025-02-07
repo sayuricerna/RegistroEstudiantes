@@ -64,7 +64,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Config\conection.cs" />
+    <Compile Include="Config\connection.cs" />
     <Compile Include="Controllers\curso_controller.cs" />
     <Compile Include="Controllers\estudiante_controller.cs" />
     <Compile Include="Controllers\inscripcion_controller.cs" />
@@ -85,6 +85,12 @@
     </Compile>
     <Compile Include="Views\Estudiantes\frmEstudiante.Designer.cs">
       <DependentUpon>frmEstudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inscripciones\frmInscripcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Inscripciones\frmInscripcion.Designer.cs">
+      <DependentUpon>frmInscripcion.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\MenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -120,8 +126,26 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Views\Cursos\frmCurso.resx">
+      <DependentUpon>frmCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Estudiantes\frmEstudiante.resx">
+      <DependentUpon>frmEstudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Inscripciones\frmInscripcion.resx">
+      <DependentUpon>frmInscripcion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UCCurso.resx">
+      <DependentUpon>UCCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UCEstudiante.resx">
+      <DependentUpon>UCEstudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UCInscripcion.resx">
+      <DependentUpon>UCInscripcion.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -138,7 +162,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\logoMain.png" />
+    <None Include="Resources\online-course %282%29.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -153,8 +177,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\Inscripciones\frmInscripcion\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

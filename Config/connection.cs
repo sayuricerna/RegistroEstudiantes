@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace RegistroEstudiantes.Config
 {
-    internal class conection
+    internal class connection
     {
         private readonly string varConnection = "Server=localhost\\SQLEXPRESS;Database=RegistroEstudiantes;Trusted_Connection=True";
-        public SqlConnection obtenerConexion()
+        public SqlConnection GetConnection()
         {
             return new SqlConnection(varConnection);
         }

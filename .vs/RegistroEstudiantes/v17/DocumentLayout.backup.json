@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|c:\\users\\sahil\\desktop\\registroestudiantes\\views\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|solutionrelative:views\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|c:\\users\\sahil\\desktop\\registroestudiantes\\controllers\\inscripcion_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|solutionrelative:controllers\\inscripcion_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|c:\\users\\sahil\\desktop\\registroestudiantes\\views\\ucinscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|solutionrelative:views\\ucinscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|c:\\users\\sahil\\desktop\\registroestudiantes\\views\\ucestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|solutionrelative:views\\ucestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|c:\\users\\sahil\\desktop\\registroestudiantes\\views\\ucestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|solutionrelative:views\\ucestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|c:\\users\\sahil\\desktop\\registroestudiantes\\views\\ucinscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|solutionrelative:views\\ucinscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|c:\\users\\sahil\\desktop\\registroestudiantes\\views\\inscripciones\\frminscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|solutionrelative:views\\inscripciones\\frminscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\views\\inscripciones\\frminscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|solutionrelative:views\\inscripciones\\frminscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|c:\\users\\sahil\\desktop\\registroestudiantes\\controllers\\estudiante_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|solutionrelative:controllers\\estudiante_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|c:\\users\\sahil\\desktop\\registroestudiantes\\models\\inscripcion_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|solutionrelative:models\\inscripcion_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,22 +46,125 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmInscripcion.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Views\\Inscripciones\\frmInscripcion.cs",
+              "RelativeDocumentMoniker": "Views\\Inscripciones\\frmInscripcion.cs",
+              "ToolTip": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Views\\Inscripciones\\frmInscripcion.cs",
+              "RelativeToolTip": "Views\\Inscripciones\\frmInscripcion.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAawDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:10:43.296Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MenuPrincipal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Views\\MenuPrincipal.cs",
-              "RelativeDocumentMoniker": "Views\\MenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Views\\MenuPrincipal.cs [Design]",
-              "RelativeToolTip": "Views\\MenuPrincipal.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "UCEstudiante.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Views\\UCEstudiante.cs",
+              "RelativeDocumentMoniker": "Views\\UCEstudiante.cs",
+              "ToolTip": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Views\\UCEstudiante.cs [Design]",
+              "RelativeToolTip": "Views\\UCEstudiante.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T01:18:00.555Z",
+              "WhenOpened": "2025-02-07T18:54:28.308Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UCInscripcion.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Views\\UCInscripcion.cs",
+              "RelativeDocumentMoniker": "Views\\UCInscripcion.cs",
+              "ToolTip": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Views\\UCInscripcion.cs",
+              "RelativeToolTip": "Views\\UCInscripcion.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAADwv38AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T18:53:32.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UCInscripcion.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Views\\UCInscripcion.cs",
+              "RelativeDocumentMoniker": "Views\\UCInscripcion.cs",
+              "ToolTip": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Views\\UCInscripcion.cs [Design]",
+              "RelativeToolTip": "Views\\UCInscripcion.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T18:53:30.858Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UCEstudiante.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Views\\UCEstudiante.cs",
+              "RelativeDocumentMoniker": "Views\\UCEstudiante.cs",
+              "ToolTip": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Views\\UCEstudiante.cs",
+              "RelativeToolTip": "Views\\UCEstudiante.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAASwB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T18:33:26.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "estudiante_controller.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Controllers\\estudiante_controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\estudiante_controller.cs",
+              "ToolTip": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Controllers\\estudiante_controller.cs",
+              "RelativeToolTip": "Controllers\\estudiante_controller.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAnwJIAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T18:33:00.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "inscripcion_model.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Models\\inscripcion_model.cs",
+              "RelativeDocumentMoniker": "Models\\inscripcion_model.cs",
+              "ToolTip": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Models\\inscripcion_model.cs",
+              "RelativeToolTip": "Models\\inscripcion_model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T18:12:40.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "inscripcion_controller.cs",
+              "DocumentMoniker": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Controllers\\inscripcion_controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\inscripcion_controller.cs",
+              "ToolTip": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Controllers\\inscripcion_controller.cs",
+              "RelativeToolTip": "Controllers\\inscripcion_controller.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAwwJ0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T18:11:49.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmInscripcion.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Views\\Inscripciones\\frmInscripcion.cs",
+              "RelativeDocumentMoniker": "Views\\Inscripciones\\frmInscripcion.cs",
+              "ToolTip": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Views\\Inscripciones\\frmInscripcion.cs [Design]",
+              "RelativeToolTip": "Views\\Inscripciones\\frmInscripcion.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T17:17:43.396Z",
               "EditorCaption": " [Design]"
             }
           ]
