@@ -25,6 +25,7 @@ namespace RegistroEstudiantes.Views
             Inscripciones.frmInscripcion frm = new Inscripciones.frmInscripcion("n");
             frm.Text = "Formulario de Inscripciones";
             frm.ShowDialog();
+            this.cargaGrilla(1);
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)

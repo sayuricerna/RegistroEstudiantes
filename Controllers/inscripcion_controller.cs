@@ -102,7 +102,7 @@ namespace RegistroEstudiantes.Controllers
                 {
                     comando.Parameters.AddWithValue("@IdCurso", inscripcion.IdCurso);
                     comando.Parameters.AddWithValue("@IdEstudiante", inscripcion.IdEstudiante);
-                    comando.Parameters.AddWithValue("@Fecha", inscripcion.Fecha);
+                    //comando.Parameters.AddWithValue("@Fecha", inscripcion.Fecha);
                     return EjecutarComando(comando, connection);
                 }
             }
