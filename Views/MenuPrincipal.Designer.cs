@@ -44,23 +44,24 @@
             // 
             this.pnlGeneral.Controls.Add(this.label1);
             this.pnlGeneral.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlGeneral.Location = new System.Drawing.Point(385, 0);
+            this.pnlGeneral.Location = new System.Drawing.Point(419, 0);
             this.pnlGeneral.Name = "pnlGeneral";
-            this.pnlGeneral.Size = new System.Drawing.Size(850, 671);
+            this.pnlGeneral.Size = new System.Drawing.Size(1277, 899);
             this.pnlGeneral.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(190, 216);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(114, 378);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 16);
+            this.label1.Size = new System.Drawing.Size(863, 36);
             this.label1.TabIndex = 0;
-            this.label1.Text = "BINEVENIDO";
+            this.label1.Text = "BIENVENIDO SISTEMA DE REGISTRO DE ESTUDIANTES";
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel2.BackColor = System.Drawing.Color.SteelBlue;
             this.panel2.Controls.Add(this.btnInscripciones);
             this.panel2.Controls.Add(this.btnCursos);
             this.panel2.Controls.Add(this.btnEstudiantes);
@@ -68,17 +69,20 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(385, 671);
+            this.panel2.Size = new System.Drawing.Size(419, 899);
             this.panel2.TabIndex = 1;
             // 
             // btnInscripciones
             // 
-            this.btnInscripciones.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnInscripciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInscripciones.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnInscripciones.Location = new System.Drawing.Point(29, 535);
+            this.btnInscripciones.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnInscripciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInscripciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInscripciones.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnInscripciones.Image = global::RegistroEstudiantes.Properties.Resources.contract;
+            this.btnInscripciones.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInscripciones.Location = new System.Drawing.Point(27, 565);
             this.btnInscripciones.Name = "btnInscripciones";
-            this.btnInscripciones.Size = new System.Drawing.Size(333, 92);
+            this.btnInscripciones.Size = new System.Drawing.Size(365, 92);
             this.btnInscripciones.TabIndex = 3;
             this.btnInscripciones.Text = "Inscripciones";
             this.btnInscripciones.UseVisualStyleBackColor = false;
@@ -86,12 +90,15 @@
             // 
             // btnCursos
             // 
-            this.btnCursos.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnCursos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCursos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnCursos.Location = new System.Drawing.Point(29, 437);
+            this.btnCursos.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnCursos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCursos.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCursos.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnCursos.Image = global::RegistroEstudiantes.Properties.Resources.course;
+            this.btnCursos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCursos.Location = new System.Drawing.Point(27, 467);
             this.btnCursos.Name = "btnCursos";
-            this.btnCursos.Size = new System.Drawing.Size(333, 92);
+            this.btnCursos.Size = new System.Drawing.Size(365, 92);
             this.btnCursos.TabIndex = 2;
             this.btnCursos.Text = "Cursos";
             this.btnCursos.UseVisualStyleBackColor = false;
@@ -99,12 +106,15 @@
             // 
             // btnEstudiantes
             // 
-            this.btnEstudiantes.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnEstudiantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEstudiantes.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnEstudiantes.Location = new System.Drawing.Point(29, 339);
+            this.btnEstudiantes.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnEstudiantes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEstudiantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEstudiantes.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnEstudiantes.Image = global::RegistroEstudiantes.Properties.Resources.graduated;
+            this.btnEstudiantes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEstudiantes.Location = new System.Drawing.Point(27, 369);
             this.btnEstudiantes.Name = "btnEstudiantes";
-            this.btnEstudiantes.Size = new System.Drawing.Size(333, 92);
+            this.btnEstudiantes.Size = new System.Drawing.Size(365, 92);
             this.btnEstudiantes.TabIndex = 1;
             this.btnEstudiantes.Text = "Estudiantes";
             this.btnEstudiantes.UseVisualStyleBackColor = false;
@@ -113,7 +123,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::RegistroEstudiantes.Properties.Resources.online_course__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(77, 55);
+            this.pictureBox1.Location = new System.Drawing.Point(93, 52);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(250, 256);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -124,7 +134,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1235, 671);
+            this.ClientSize = new System.Drawing.Size(1696, 899);
             this.Controls.Add(this.pnlGeneral);
             this.Controls.Add(this.panel2);
             this.Name = "MenuPrincipal";

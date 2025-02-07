@@ -41,6 +41,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.txtBuscar);
             this.panel1.Controls.Add(this.btnActualizar);
@@ -49,12 +50,12 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1077, 117);
+            this.panel1.Size = new System.Drawing.Size(1490, 117);
             this.panel1.TabIndex = 1;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel2.BackColor = System.Drawing.Color.MidnightBlue;
             this.panel2.Location = new System.Drawing.Point(15, 81);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(389, 10);
@@ -71,8 +72,10 @@
             // 
             // btnActualizar
             // 
-            this.btnActualizar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnActualizar.BackColor = System.Drawing.Color.MidnightBlue;
             this.btnActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizar.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnActualizar.Image = global::RegistroEstudiantes.Properties.Resources.refresh;
             this.btnActualizar.Location = new System.Drawing.Point(867, 39);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(114, 52);
@@ -82,8 +85,9 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnAgregar.BackColor = System.Drawing.Color.MidnightBlue;
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregar.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnAgregar.Location = new System.Drawing.Point(644, 39);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(217, 52);
@@ -94,8 +98,9 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnBuscar.BackColor = System.Drawing.Color.MidnightBlue;
             this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnBuscar.Location = new System.Drawing.Point(421, 39);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(217, 52);
@@ -106,14 +111,14 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 117);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1077, 502);
+            this.dataGridView1.Size = new System.Drawing.Size(1490, 502);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dataGridView1_DataBindingComplete);
@@ -125,7 +130,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
             this.Name = "UCEstudiante";
-            this.Size = new System.Drawing.Size(1077, 619);
+            this.Size = new System.Drawing.Size(1490, 619);
             this.Load += new System.EventHandler(this.UCEstudiante_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

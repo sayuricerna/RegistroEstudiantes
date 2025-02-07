@@ -135,7 +135,7 @@ namespace RegistroEstudiantes.Controllers
             var listaInscripciones = new List<inscripcion_model>();
             using (var conexion = cn.GetConnection())
             {
-                string query = "SELECT * FROM vistaInscripciones WHERE NombreEstudiante LIKE LOWER(@Texto)"; /**********/
+                string query = "SELECT * FROM vistaInscripciones WHERE NombreEstudiante LIKE LOWER(@Texto)";
                 using (var comando = new SqlCommand(query, conexion))
                 {
                     comando.Parameters.AddWithValue("@Texto", "%" + texto + "%");
