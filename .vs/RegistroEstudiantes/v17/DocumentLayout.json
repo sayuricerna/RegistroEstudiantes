@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|solutionrelative:views\\inscripciones\\frminscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|c:\\users\\sahil\\desktop\\registroestudiantes\\views\\reportes\\frmreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\views\\reportes\\frmreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|solutionrelative:views\\reportes\\frmreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|c:\\users\\sahil\\desktop\\registroestudiantes\\views\\estudiantes\\frmestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\views\\estudiantes\\frmestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|solutionrelative:views\\estudiantes\\frmestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|c:\\users\\sahil\\desktop\\registroestudiantes\\views\\cursos\\frmcurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\views\\cursos\\frmcurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{266C0FF0-7B43-4E8A-A302-09BABF9E37B5}|RegistroEstudiantes.csproj|solutionrelative:views\\cursos\\frmcurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -41,8 +41,7 @@
               "ToolTip": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Views\\Reportes\\frmReporte.cs [Design]",
               "RelativeToolTip": "Views\\Reportes\\frmReporte.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T21:40:31.095Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-07T21:40:31.095Z"
             },
             {
               "$type": "Document",
@@ -65,8 +64,7 @@
               "ToolTip": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Views\\Estudiantes\\frmEstudiante.cs [Design]",
               "RelativeToolTip": "Views\\Estudiantes\\frmEstudiante.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T21:40:26.12Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-07T21:40:26.12Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "ToolTip": "C:\\Users\\sahil\\Desktop\\RegistroEstudiantes\\Views\\Cursos\\frmCurso.cs [Design]",
               "RelativeToolTip": "Views\\Cursos\\frmCurso.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T21:40:03.091Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-07T21:40:03.091Z"
             }
           ]
         }
